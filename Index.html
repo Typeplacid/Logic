@@ -3,10 +3,11 @@
 <head></head>
 <body>
   <script>
-    const hasTargaryenReference = (name) => {
-      return name.substring(0,9) === "Targaryen";
+    const isLanisterSoldier = (color, shield) => {
+      return (color === "red" && shield === "lion");
     };
-    console.log(hasTargaryenReference("Targaryenwow"));
+   console.log (isLanisterSoldier('red','lion'));
+   
   </script>
 </body>
 </html>

@@ -3,10 +3,10 @@
 <head></head>
 <body>
   <script>
-    const isNotLanisterSoldier = (color, shield) => {
-      return !(color === "red" && shield === "lion");
+    const isNeutralSoldier = (shellColor, shieldColour) => {
+      return shellColor !== "red" && shieldColour === "black";
     };
-   console.log (isNotLanisterSoldier('blue','lion'));
+   console.log (isNeutralSoldier("black","black"));
    
   </script>
 </body>
